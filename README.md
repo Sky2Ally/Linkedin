@@ -26,7 +26,7 @@ Welcome to my GitHub repository! This repo contains copies of my various project
 ## 📌 How to Use
 1️⃣ Clone the repository: 
 ```bash
- git clone https://github.com/your-username/your-repo.git
+ git clone https://github.com/Sky2Ally/Linkedin.git
 ```
 2️⃣ Navigate to the project folder: 
 ```bash
