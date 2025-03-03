@@ -8,7 +8,7 @@ Welcome to my GitHub repository! This repo contains copies of my various project
 📌 A web-based data visualization project using **D3.js** to create interactive charts and graphs. This project explores different data visualization techniques and provides insights through dynamic and interactive UI components.
 
 ### 2️⃣ **Data Cleaning And Observing** 🛠️
-📌 A **data preprocessing and analysis** project focused on cleaning, transforming, and observing patterns in raw datasets using **KNIME software**. It involves handling missing values, feature engineering, and exploratory data analysis using **Pandas, NumPy, and Matplotlib**.
+📌 A **data preprocessing and analysis** project focused on cleaning, transforming, and observing patterns in raw datasets using **KNIME software**. It involves handling missing values, feature engineering, and exploratory data analysis.
 
 ### 3️⃣ **Forest Fire Prediction** 🔥
 📌 A **machine learning project** that predicts the impact of forest fires using classification and regression models. It leverages **weather data and fire indicators** to estimate fire severity and burned areas. 
