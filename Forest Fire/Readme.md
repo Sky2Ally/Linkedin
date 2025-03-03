@@ -20,39 +20,32 @@ This project focuses on predicting the impact of forest fires using machine lear
   - **Regression:** Log-transformed burned area (area_log).
 
 ---
-## 🚀 Models Implemented
-### 🔢 **Classification Models**
-| Model | Key Findings |
-|--------|------------------------------------------------|
-| **Decision Tree** | 25 terminal nodes, RH and DC were key predictors. |
-| **Random Forest** | 500 trees; temp & RH interaction had the highest importance. |
-| **Support Vector Machine (SVM)** | Optimal C=1, but accuracy was 49% with low class separability. |
-| **k-Nearest Neighbors (kNN)** | k=9 performed the best with moderate accuracy. |
-| **Artificial Neural Network (ANN)** | 5 neurons in a hidden layer, trained for 500 iterations. |
+## 📊 Model Performance Comparison
+| Model                     | Accuracy | Kappa  | Precision | Recall | F1 Score |
+|---------------------------|----------|--------|-----------|--------|----------|
+| Decision Tree             | 0.4211   | 0.0484 | 0.1800    | -      | -        |
+| Random Forest            | 0.2203   | 0.4803 | 0.0042    | 0.0967 | 0.1920   |
+| Support Vector Machine   | 0.2000   | 0.4803 | 0.0042    | 0.0967 | 0.1304   |
+| k-Nearest Neighbors (kNN) | 0.2000   | 0.4408 | 0.0812    | 0.2011 | 0.1304   |
+| Artificial Neural Network | 0.4474   | 0.2285 | 0.0611    | 0.2480 | **0.2127** |
 
-### 📈 **Regression Models**
-| Model | RMSE | MAE | R² |
-|--------|------|------|------|
-| **Decision Tree Regression** | 0.217 | 0.172 | 0.00035 (Underfitting) |
-| **Random Forest Regression** | TBD | TBD | TBD |
-| **Linear Regression** | TBD | TBD | TBD |
+### 🏆 Best Performing Model
+The **Artificial Neural Network (ANN)** achieved the highest accuracy (0.4474) and the best F1 Score (0.2127), making it the most effective in balancing precision and recall.
 
-- **Decision Tree Regression:** High error, underfitting, and poor generalization.
-- **Random Forest Regression & Linear Regression:** Performance metrics to be updated.
+### ❌ Least Performing Models
+The **Random Forest and Support Vector Machine (SVM)** performed the worst, with a low Kappa (0.0042) and Precision (0.0967), indicating poor classification capability.
 
----
-## 📌 Key Findings & Insights
-- **Decision Trees identified December, RH, and DC as strong predictors.**
-- **Random Forest outperformed other classifiers with stable predictions.**
-- **SVM and kNN showed lower accuracy due to high variability in fire spread.**
-- **Regression models struggled with generalization, highlighting non-linearity in fire spread.**
+## 📌 Key Findings
+- The ANN model showed the best balance between true positives and false positives, making it the most reliable model.
+- Decision Tree had moderate accuracy but was outperformed by ANN.
+- Random Forest and SVM struggled to classify the data effectively.
+- Weather data plays a crucial role in predicting fire spread and severity.
 
----
-## 🛠️ Tech Stack
-- **Programming Language:** R
-- **Libraries Used:** rpart, caret, nnet, randomForest
-- **Evaluation Metrics:** RMSE, MAE, R², Gini Impurity
-
+## 🔧 Future Enhancements
+- Improve feature selection to enhance model performance.
+- Experiment with ensemble learning techniques for better classification.
+- Integrate real-time fire data for dynamic predictions.
+- Deploy the model using a web-based dashboard for real-time insights.
 ---
 ## 📂 Repository Structure
 ```
