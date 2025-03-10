@@ -1,5 +1,5 @@
 # Mastermind Game in Armlite Assembly
-
+[VIEW CODE](https://github.com/Sky2Ally/Linkedin/tree/main/MasterMind%20Game%20Dev%20ARMlite)
 ## Description
 This project is an implementation of the **Mastermind** game using the **Armlite Assembly Programming Language**. The game involves two players:
 - **Codemaker**: Sets a secret code.
