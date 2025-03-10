@@ -5,7 +5,7 @@ Welcome to my GitHub repository! This repo contains copies of my various project
 ## 📂 Projects
 
 ### 1️⃣ **D3Website**
-📌 A web-based data visualization project using **D3.js** to create interactive charts and graphs. This project explores different data visualization techniques and provides insights through dynamic and interactive UI components.
+📌 A web-based data visualization project using **D3.js** to create interactive charts and graphs. This project explores different data visualization techniques and provides insights through dynamic and interactive UI components. [Live Project](https://sky2ally.github.io/Linkedin/D3Website/Project.html)
 
 ### 2️⃣ **Data Cleaning And Observing** 🛠️
 📌 A **data preprocessing and analysis** project focused on cleaning, transforming, and observing patterns in raw datasets using **KNIME software**. It involves handling missing values, feature engineering, and exploratory data analysis.
