@@ -4,7 +4,7 @@
 This project provides an interactive data visualization of migration patterns in Australia, showcasing the inflows and outflows of immigrants over time. The goal is to offer policymakers, researchers, non-governmental organizations, journalists, and the general public an intuitive way to understand migration trends.
 
 ## Website Link
-[Live Project](https://mercury.swin.edu.au/cos30045/s103847174/Project/LandingPage.html)
+[Live Project](https://sky2ally.github.io/Linkedin/D3Website/Project.html)
 
 ## Features
 ### 📊 Data Visualization
