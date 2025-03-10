@@ -2,6 +2,7 @@
 
 ## 📌 Project Overview
 This project focuses on predicting the impact of forest fires using machine learning models. The models leverage weather data and fire indicators to classify fire severity and estimate the burned area. 
+[Project Process Book Link](https://sky2ally.github.io/Linkedin/Forest%20Fire/Assignment%203%20Report_Final.pdf)
 
 ### 🔍 Business Objective
 - **Classification Models:** Categorize fire severity (No Damage, Low, Moderate, High, Very High) to optimize resource allocation and reduce response time.
