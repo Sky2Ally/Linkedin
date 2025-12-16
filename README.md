@@ -10,7 +10,7 @@
 
 ## Professional Profile
 
-Data Analyst | Business Analyst | with expertise in Python, SQL, Tableau, and Power BI, skilled in transforming complex datasets into actionable business insights. Experienced in data visualization, statistical analysis, business intelligence, and cloud computing (AWS, Azure). Strong problem-solving abilities, with a proven track record of improving processes and optimizing business operations. Passionate about leveraging data-driven solutions to drive business efficiency.
+Microsoft DP-900 certified Data & Insights Analyst with 2+ years of experience in building real time dashboards, predictive models and business storytelling to help organisations across Education and IoT sectors stay ahead of competition and make informed decisions faster. Proven track record of building scalable data pipelines and forecasting solutions. I bring my analytical and deep dive abilities for providing nuanced data driven insights and recommendations to the business. My most notable recent achievement at Builders Academy Australia was overhauling the data reporting infrastructure to connect multiple isolated data sources and automated student enrolment dashboards eliminating human error and saving manual reporting time of ~900 hours per year.
 
 ---
 
